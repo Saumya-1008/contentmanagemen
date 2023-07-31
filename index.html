@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog] </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Create Your Blog</h1>
+        <div>
+            <label for="blogTitle">Title:</label>
+            <input type="text" id="blogTitle" />
+        </div>
+        <div>
+            <label for="blogContent">Content:</label>
+            <textarea id="blogContent" rows="10" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="blogImage">Image URL:</label>
+            <input type="text" id="blogImage" />
+        </div>
+        <div>
+            <label for="blogVideo">Video URL:</label>
+            <input type="text" id="blogVideo" />
+        </div>
+        <button onclick="createBlog()">Create Blog</button>
+    
+        <div id="blogsContainer">
+            <!-- Display created blogs here -->
+        </div>
+    
+        <script src="script.js"></script>
+    
+    
+</body>
+</html>
