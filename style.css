@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+}
+
+.blog {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
